@@ -1,0 +1,9 @@
+n=int(input("enter a number"))
+count=0
+while n>0:
+count=count+1
+n//10
+print("number of digits",count) 
+OUTPUT
+enter a number2345
+number of digits 4
